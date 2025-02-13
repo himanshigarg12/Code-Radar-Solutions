@@ -1,9 +1,9 @@
 #include<stdio.h>
-main()
+int main()
 {
-    int N i=1;
-    printf("");
-    scanf("%d",& N);
+    int N, i=1;
+    
+    scanf("%d",&N);
     while (i<=5)
     {
         printf("%d",i);
