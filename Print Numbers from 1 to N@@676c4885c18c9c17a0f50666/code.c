@@ -9,7 +9,10 @@ int main()
         printf("%d ",i);
         i=i+1;
     }
-return 0; 
-   
+    while(i<=1)
+    {
+         printf("%d ",i);
+    }
+
 
 }
