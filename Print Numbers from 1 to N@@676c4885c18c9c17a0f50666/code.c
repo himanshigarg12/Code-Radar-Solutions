@@ -6,7 +6,7 @@ int main()
     scanf("%d",&N);
     while (i<=5)
     {
-        printf("%d",i);
+        printf("%d\t",i);
         i=i+1;
     }
 return 0;    
