@@ -12,6 +12,7 @@ int main()
     while(i<=1)
     {
          printf("%d ",i);
+         i=i+1;
     }
 
 
