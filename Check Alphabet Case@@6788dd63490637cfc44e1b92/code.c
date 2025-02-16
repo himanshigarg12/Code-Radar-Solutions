@@ -4,7 +4,7 @@ int main()
 {
     char a;
     scanf("%c",&a);
-    if(isupper(a))
+    if(a.isupper())
     {
         printf("Uppercase");
     }
