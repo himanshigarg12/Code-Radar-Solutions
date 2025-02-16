@@ -12,7 +12,7 @@ int main()
         printf("Lowercase");
     }
     else{
-        printf("Wrong input");
+        printf("Not an alphabet");
     }
     return 0;
 }
