@@ -9,13 +9,13 @@ int main()
         if(n%i==0)
         {
             flag=1;
-            print("Prime");
+            print("Not Prime");
             break;
         }
         i=i+1;
     }
     if(flag==0)
     {
-        printf("Not Prime");
+        printf("Prime");
     }
 }
