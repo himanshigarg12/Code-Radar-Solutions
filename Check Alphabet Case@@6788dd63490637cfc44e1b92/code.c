@@ -1,11 +1,18 @@
 #include<stdio.h>
-#include<string.h>
 int main()
 {
     char a;
     scanf("%c",&a);
-    if(a.isupper())
+    if(a>='A' && a<='Z')
     {
         printf("Uppercase");
     }
+    else if(a>='a' && a<='z')
+    {
+        printf("Lowercase");
+    }
+    else{
+        printf("Wrong input");
+    }
+    return 0;
 }
