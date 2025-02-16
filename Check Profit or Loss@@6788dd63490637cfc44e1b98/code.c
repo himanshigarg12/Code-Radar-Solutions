@@ -4,11 +4,11 @@ int main()
 {
     int c,s;
     scanf("%d %d",&c,&s);
-    if(c>s)
+    if(s>c)
     {
         printf("Profit");
     }
-    else if(s>c)
+    else if(c>s)
     {
         printf("Loss");
     }
