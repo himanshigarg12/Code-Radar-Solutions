@@ -10,7 +10,7 @@ int main()
         if(n%i==0)
         {
             flag=1;
-            print("Not Prime");
+            printf("Not Prime");
             break;
         }
         i=i+1;
