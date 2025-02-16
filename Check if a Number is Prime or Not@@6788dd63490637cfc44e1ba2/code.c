@@ -4,6 +4,7 @@ int main()
     int n;
     int i=2;
     int flag=0;
+    scanf("%d",&n)
     while(i<n)
     {
         if(n%i==0)
