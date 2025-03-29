@@ -11,7 +11,7 @@ int main()
     }
     for(i=0;i<N;i++)
     {
-        if(a[i]>=a[i+1])
+        if(a[i]<=a[i+1])
         { 
           flag=0;  
         }
@@ -20,7 +20,7 @@ int main()
             flag=1;
         }
     }
-    if(flag==1)
+    if(flag==0)
     {
         printf("Sorted");
     } 
